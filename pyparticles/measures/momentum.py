@@ -127,9 +127,9 @@ class MomentumParticles( me.MeasureParticles ):
         return a tuple containing the shape of the measures dataset
         """
         if self.model == "part_by_part" :
-            return ( len( self.subset ) , pset.dim  )
+            return ( len( self.subset ) , self.pset.dim  )
         else :
-            return ( 1 , pset.dim )
+            return ( 1 , self.pset.dim )
     
     def dim( self ):
         """
