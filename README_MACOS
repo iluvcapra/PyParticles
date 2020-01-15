@@ -1,0 +1,8 @@
+Be sure to install openGLUT
+
+`brew install openglut`
+
+OpenCL is required for the `galaxy` demo and this requires pybind11
+
+`pip3 install pybind`
+`pip3 install pyopencl`
